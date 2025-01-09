@@ -1,6 +1,8 @@
-# practice-3
+# Practice-3
 
-Create a tic tac toe game
+A Tic-Tac-Toe game with all the functionalities listed below.
+
+If you want to play yo can play it here: [Play Tic-Tac-Toe!](https://bootcamp-fs07.github.io/israel-quisbert-practice-3/)
 
 
 ### Requirements
