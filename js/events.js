@@ -15,9 +15,11 @@ newGameButton.addEventListener("click", () => {
 const endGameButton = document.getElementById("endGame");
 endGameButton.addEventListener("click", () => {
     if(scores.X > scores.O) {
-        alert(`¡THE WINNER IS ${names.X} WITH ${scores.X} POINTS!`);
-    } else{
-        alert(`¡THE WINNER IS ${names.O} WITH ${scores.O} POINTS!`);
+      alert(`¡THE WINNER IS ${names.X} WITH ${scores.X} POINTS!`);
+    }else if (scores.O > scores.X){
+      alert(`¡THE WINNER IS ${names.O} WITH ${scores.O} POINTS!`);
+    }else{
+      alert(`¡IT'S A TIE!`);
     }
     resetGame();
     scores.X = 0;
